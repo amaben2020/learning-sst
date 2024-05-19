@@ -12,6 +12,7 @@ export function APIStack({ stack }: StackContext) {
     routes: {
       'GET /': 'packages/functions/src/lambda.handler',
       'GET /test': 'packages/functions/src/test/lambda.handler',
+      'POST /notes': 'packages/functions/src/create.main',
     },
   });
   stack.addOutputs({
