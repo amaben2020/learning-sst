@@ -1,0 +1,2 @@
+Stacks are the infrastructure of the application i.e Api routes, Storage, Events etc. i.e DynamoDB and S3 buckets are gonna be the storage stack of the application.
+SNS or Simple Notification Service would be the EventStack of the application.
